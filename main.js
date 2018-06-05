@@ -11,7 +11,8 @@ const fullNames = [];
 
 for (let i = 0; i < firstName.length; i++) {
     for (let j = 0; j < lastName.length; j++) {
-        fullNames.push(firstNames[i] + lastName[j]);
+        fullNames.push(firstName[i] + " " +
+            lastName[j]);
     }
 
 
